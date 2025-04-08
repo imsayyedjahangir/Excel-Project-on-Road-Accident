@@ -1,32 +1,106 @@
-🚗 Road Accident Analysis Dashboard (Excel)
-📌 Project Overview
-This interactive Excel dashboard provides insights into road accident data for 2021 and 2022, helping identify trends, high-risk factors, and accident severity patterns. It visualizes key metrics using pivot tables, charts, and slicers for better decision-making.
+# Road Accident Excel Dashboard
+## Project Overview
+This project presents a detailed analysis of road accident data using Microsoft Excel. The dashboard provides a visual summary of key accident statistics, vehicle involvement, casualty severity, road types, and environmental conditions to help identify patterns and support decision-making for road safety initiatives.
 
-📊 Key Features & KPIs
-✅ Primary KPIs:
+The insights were derived from raw accident datasets which were thoroughly cleaned, structured, and visualized using Excel's features including pivot tables, slicers, charts, and conditional formatting.
 
-Total casualties after accidents
-Casualties breakdown by severity (Fatal, Serious, Slight)
-Vehicle-wise casualties (Car, Bus, Bike, etc.)
-✅ Secondary KPIs:
+## Tools & Techniques Used
+Microsoft Excel (Advanced)
 
-Casualties by road type (Single carriageway, Roundabout, etc.)
-Casualties by road surface condition (Dry, Wet, Snow)
-Casualties by time of day (Daylight vs. Dark)
-Casualties by location (Urban vs. Rural)
-✅ Trends & Comparisons:
+## Data Cleaning & Preprocessing
 
-Monthly trend analysis for 2021 vs. 2022
-Filtering options (Year, Urban/Rural, etc.)
-📌 Tools & Techniques Used
-Excel Pivot Tables & Charts for dynamic analysis
-Conditional Formatting for highlighting key trends
-Slicers & Filters for easy data exploration
-Data Cleaning & Preprocessing for accuracy
+Pivot Tables & Pivot Charts
 
-📷 Dashboard Preview
-![image](https://github.com/user-attachments/assets/54271a4b-2886-46c6-be2a-ff3014bdb7b6)
+Slicers for Interactive Filtering
 
-🔍 Insights & Impact
-This dashboard helps in identifying accident-prone areas, peak accident times, and severity distribution, enabling policymakers and analysts to make data-driven decisions for road safety improvements.
+Conditional Formatting
 
+Doughnut, Bar, and Line Charts
+
+## Data Cleaning & Preparation
+Before building the dashboard, significant preprocessing steps were taken:
+
+Removed blank rows, duplicates, and irrelevant columns.
+
+Converted data types (e.g., dates, categories).
+
+Standardized naming conventions for clarity.
+
+Created new columns for metrics like casualty severity types, vehicle types, light conditions, and road surface conditions.
+
+Extracted year and month from date for time-based analysis.
+
+## Dashboard Features
+✅ Total Casualties
+The total number of people affected by road accidents: 255,864
+
+✅ Casualties by Severity
+Fatal Casualties: 2,319
+
+Serious Injuries: 30,433
+
+Slight Injuries: 223,112
+
+Visualized with doughnut charts for quick comparison.
+
+✅ Casualties by Vehicle Type
+Bar chart showing involvement by:
+
+Cars: 203,357
+
+Buses, Motorcycles, Vans, etc.
+
+✅ Time-Series Trend
+Monthly line chart comparing current year vs previous year casualties to identify spikes or improvements.
+
+✅ Casualties by Road Type
+Road categories include:
+
+Single carriageway
+
+Dual carriageway
+
+Roundabouts
+
+Slip roads, etc.
+
+Visualized with horizontal bar chart.
+
+✅ Casualties by Road Surface
+Stacked bar chart showing casualty counts under:
+
+Dry
+
+Wet
+
+Snow conditions
+
+✅ Casualties by Area
+Doughnut chart breakdown: Urban vs Rural
+
+✅ Casualties by Light Type
+Pie chart comparing:
+
+Daylight accidents
+
+Dark (night-time) accidents
+
+✅ Filter Panel (Interactive)
+Slicers allow dynamic filtering by:
+
+Accident Year (2021-2022)
+
+Area Type: Urban or Rural
+
+## How to Use
+Open the Excel file.
+
+Use the filter slicers to interact with the dashboard.
+
+View real-time updates to charts based on selected years or location types.
+
+Drill down into data by severity, surface, vehicle type, and more.
+
+## Preview
+
+![image](https://github.com/user-attachments/assets/1b88c3c5-36bf-4fad-959b-78247018b66e)
